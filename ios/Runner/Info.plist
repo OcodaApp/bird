@@ -48,41 +48,15 @@
 
     <!-- Location Permissions -->
     <key>NSLocationWhenInUseUsageDescription</key>
-    <string>We need your location while using the app.</string>
-    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-    <string>We need your location at all times for better service.</string>
-    <key>NSLocationUsageDescription</key>
-    <string>Required for location features on older devices.</string>
-    <key>NSLocationAlwaysUsageDescription</key>
-    <string>We request access to your location at all times.</string>
+    <string>We need your location while using the app to deliver your order.</string>
 
-    <!-- Media Library Permissions -->
-    <key>NSAppleMusicUsageDescription</key>
-    <string>We need access to your music library.</string>
-    <key>kTCCServiceMediaLibrary</key>
-    <string>Access to media library is required.</string>
 
-    <!-- Calendar Permissions -->
-    <key>NSCalendarsUsageDescription</key>
-    <string>We need access to your calendars.</string>
-    <key>NSCalendarsFullAccessUsageDescription</key>
-    <string>Full calendar access is required for scheduling.</string>
 
     <!-- Camera Permissions -->
     <key>NSCameraUsageDescription</key>
-    <string>Access to the camera is needed for taking photos.</string>
+    <string>Access to the camera is needed for taking photos to upload your profile picture</string>
 
-    <!-- Contacts Permissions -->
-    <key>NSContactsUsageDescription</key>
-    <string>We need access to your contacts for connecting with friends.</string>
 
-    <!-- Microphone Permissions -->
-    <key>NSMicrophoneUsageDescription</key>
-    <string>Access to the microphone is required for voice input.</string>
-
-    <!-- Speech Recognition Permissions -->
-    <key>NSSpeechRecognitionUsageDescription</key>
-    <string>We need access to speech recognition for voice commands.</string>
 
     <!-- Motion Permissions -->
     <key>NSMotionUsageDescription</key>
@@ -92,20 +66,7 @@
     <key>NSPhotoLibraryUsageDescription</key>
     <string>We need access to your photo library to upload your profile image.</string>
 
-    <!-- Reminders Permissions -->
-    <key>NSRemindersUsageDescription</key>
-    <string>Access to reminders is needed for task management.</string>
 
-    <!-- Bluetooth Permissions -->
-    <key>NSBluetoothAlwaysUsageDescription</key>
-    <string>We need Bluetooth access to connect to devices.</string>
-    <key>NSBluetoothPeripheralUsageDescription</key>
-    <string>Access to Bluetooth is required for peripheral connectivity.</string>
 
-    <!-- Siri Permissions -->
-    <key>NSSiriUsageDescription</key>
-    <string>We need access to Siri for voice commands.</string>
-    <key>NSUserTrackingUsageDescription</key>
-    <string>This app uses your data to deliver personalized ads and improve user experience.</string>
 </dict>
 </plist>
