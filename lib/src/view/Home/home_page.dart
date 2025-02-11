@@ -2,7 +2,7 @@
 
 import 'package:birdandroid/src/view/user/login_or_signapp.dart';
 import 'package:birdandroid/utility/General.dart';
-import 'package:carousel_slider/carousel_slider.dart';
+import 'package:carousel_slider/carousel_slider.dart' as ca;
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:animate_do/animate_do.dart';
@@ -26,7 +26,7 @@ class HomePageView extends StatelessWidget {
   final CartCountController cartCountcontroller =
       Get.put(CartCountController());
   final SendNotfyTestController send = Get.put(SendNotfyTestController());
-  final CarouselController introCarousel = CarouselController();
+  final ca.CarouselSliderController introCarousel = ca.CarouselSliderController();
 
   @override
   Widget build(BuildContext context) {
@@ -368,8 +368,8 @@ class HomePageView extends StatelessWidget {
               Obx(() => controller.isSliders.value
                   ? SizedBox(
                       height: sizeH100,
-                      child: CarouselSlider(
-                        options: CarouselOptions(
+                      child: ca.CarouselSlider(
+                        options: ca.CarouselOptions(
                           height: Get.height,
                           viewportFraction: 1.0,
                           enlargeCenterPage: true,

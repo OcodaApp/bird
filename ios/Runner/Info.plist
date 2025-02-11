@@ -49,6 +49,8 @@
     <!-- Location Permissions -->
     <key>NSLocationWhenInUseUsageDescription</key>
     <string>We need your location while using the app to deliver your order.</string>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>We need your location while using the app to deliver your order.</string>
 
 
 

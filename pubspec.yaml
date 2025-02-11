@@ -44,7 +44,7 @@ dependencies:
   animations: ^2.0.8
   get_storage:
   rename: ^3.0.2
-  carousel_slider: ^4.0.0
+  carousel_slider: ^5.0.0
   animate_do: 
   page_route_transition:
   light_modal_bottom_sheet:

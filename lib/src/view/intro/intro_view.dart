@@ -3,7 +3,7 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:carousel_slider/carousel_slider.dart';
+import 'package:carousel_slider/carousel_slider.dart' as ca;
 import 'package:page_route_transition/page_route_transition.dart';
 import '../../../constance.dart';
 import '../../../utility/General.dart';
@@ -20,7 +20,7 @@ class IntroViews extends StatefulWidget {
 
 class _IntroViewsState extends State<IntroViews> {
   final IntroController controller = Get.put(IntroController());
-  final CarouselController introCarousel = CarouselController();
+  final ca.CarouselSliderController introCarousel = ca.CarouselSliderController();
   var _current = 0;
   bool isFnish = false;
   var images = ['1.png','2.png','3.png'];
@@ -43,8 +43,8 @@ class _IntroViewsState extends State<IntroViews> {
             child: SizedBox(
               height: Get.height /3,
               width: Get.width /1.4,
-              child: CarouselSlider(
-                options: CarouselOptions(
+              child: ca.CarouselSlider(
+                options: ca.CarouselOptions(
                   height: Get.height,
                   viewportFraction: 1.0,
                   enlargeCenterPage: true,
@@ -150,7 +150,7 @@ class _IntroViewsState extends State<IntroViews> {
                     } else {
                       General().setIntro();
                       PageRouteTransition.effect = TransitionEffect.scale;
-                      PageRouteTransition.push(context, const LoginOrSignUpView());
+                      PageRouteTransition.push(context, const LoginOrSignUpView(skipVisible: true,));
                     }
                   },
                   child: Text(
